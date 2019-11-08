@@ -1,0 +1,68 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.claims-rrgg-user-wrapper {
+  padding: 10px;
+}
+.claims-rrgg-user-content {
+  background-color: white;
+  margin: 32px auto;
+  width: 388px;
+  padding: 32px;
+  border: 1px solid #d8dee2;
+}
+
+.claims-rrgg-user-top {
+  text-align: center;
+}
+
+.claims-rrgg-user-top-header {
+  height: 90px;
+  line-height: 90px;
+}
+
+.claims-rrgg-user-top-header a {
+  text-decoration: none;
+}
+
+.claims-rrgg-user-top-logo {
+  vertical-align: top;
+}
+
+.claims-rrgg-user-top-desc {
+  margin-bottom: 40px;
+  color: #333;
+  font-size: 18px;
+}
+
+.claims-rrgg-user-content-desc {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: rgba(0,0,0,.55);
+}
+
+.claims-rrgg-user-login-main .login-form-button,
+.change-password-button  {
+  width: 100%;
+}
+
+.login-form-button {
+  margin-top: 20px;
+}
+
+.login-captcha {
+  margin: 30px auto 8px;
+}
+
+.login-error {
+  color: #E6281E;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 576px) {
+  .claims-rrgg-user-content {
+    width: 95%;
+  }
+}
