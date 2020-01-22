@@ -8,9 +8,10 @@ Es una librería javascript que implementa arquitectura de datos, como evolució
 
 ### Store
 Es el estado global.
-Objeto que contiene todos los datos que la aplicación que se va a manejar. Almacén de la data de nuestra aplicación. Puede ser consultada por cualquier componente
+Objeto que contiene todos los datos que la aplicación que se va a manejar. Almacén de la data de la aplicación. Puede ser consultada por cualquier componente
 
 ### Action
+Definen una 'API interna' para la app y son la forma de interactuar con la app.
 Objetos simples que contiene una identificación y la data necesaria para ejecutarse.
 Debe de tener una propiedad type,
 normalmente son definidos como strings constantes.
