@@ -22,6 +22,14 @@ normalmente son definidos como strings constantes.
 }
 ~~~
 
+~~~
+export const setVisibilityFilter = (filter) => {
+  return {
+    type: 'SET_VISIBILITY_FILTER',
+    filter
+  }
+}
+~~~
 ### Dispatcher
 
 Función que despacha las acciones para que el store sea modificado.
